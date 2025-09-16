@@ -41,6 +41,8 @@
 > Preview mode 화면 예시
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/999e1971-4a96-4c06-bfc4-5b302ad0a98e" />
 
+> Motion 인식 화면 예시
+<img width="1102" height="699" alt="Image" src="https://github.com/user-attachments/assets/01fadb66-ebe9-4dc5-8d2e-cd790be26e24" />
 
 ---
 
