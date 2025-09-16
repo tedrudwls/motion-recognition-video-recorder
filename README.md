@@ -76,3 +76,22 @@
 >  --auto-split-min 10
 > ```
 
+
+---
+
+## 키 맵
+ESC       : Exit
+Space     : Manual record toggle (Preview ↔ Record)
+p         : Pause/Resume (when recording)
+s         : Save snapshot (PNG)
+m         : Motion-triggered recording ON/OFF
+t         : Toggle timestamp HUD
+h         : Toggle help HUD
+
+f         : Flip (mirror) ON/OFF
+g         : Grayscale ON/OFF
+b         : Blur ON/OFF
+[ / ]     : Blur kernel size - / + (odd only)
+- / =     : Contrast - / +
+; / '     : Brightness - / +
+n         : Split to a new file (roll over now)
