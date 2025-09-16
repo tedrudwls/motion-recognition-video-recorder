@@ -39,8 +39,7 @@
 > 아래 자리에 GIF/스크린샷을 추가하세요.
 >
 > ```text
-> <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/237a6c1f-c5ac-4a0f-b9cc-0b9d45b7b89a" />
-> recordings/rec_YYYYMMDD_HHMMSS.png
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/237a6c1f-c5ac-4a0f-b9cc-0b9d45b7b89a" />> recordings/rec_YYYYMMDD_HHMMSS.png
 > ```
 >
 > 예시: HUD/REC 표시 및 “Recording started/stopped”, “Motion auto recording: ON/OFF” 토스트 메시지 표기
