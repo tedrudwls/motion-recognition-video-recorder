@@ -12,7 +12,6 @@
 - [주요 기능](#주요-기능)
 - [데모](#데모)
 - [요구 사항](#요구-사항)
-- [설치](#설치)
 - [빠른 시작](#빠른-시작)
 - [키 맵](#키-맵)
 - [CLI 옵션](#cli-옵션)
@@ -20,8 +19,7 @@
 - [상태 머신](#상태-머신)
 - [출력물 구조](#출력물-구조)
 - [트러블슈팅](#트러블슈팅)
-- [로드맵](#로드맵)
-- [라이선스](#라이선스)
+
 
 ---
 
@@ -56,17 +54,24 @@
 ## 요구 사항
 
 - Python **3.8+**
-- `opencv-python`, `numpy`
-- (선택) FFmpeg / GStreamer 등 — 환경에 따라 캡처 백엔드/코덱 가용성이 달라질 수 있음
+- cv==1.0.0
+- numpy==2.2.6
+- opencv-python==4.12.0.88
+- pillow==11.3.0
+- wheel==0.45.1
+
+
 
 ---
 
-## 설치
+## 실행 명령어 예시
 
-```bash
-# 권장: 가상환경
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python video_recorder.py \
+  --source auto \
+  --backend any \
+  --codec mp4v \
+  --fps 30 \
+  --width 1280 --height 720 \
+  --outdir ./recordings \
+  --auto-split-min 10
 
-pip install --upgrade pip
-pip install opencv-python numpy
