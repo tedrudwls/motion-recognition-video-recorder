@@ -37,8 +37,8 @@
 ## 데모
 
 > 아래 자리에 GIF/스크린샷을 추가하세요.
->
-> ```text
+
+> ```영상 촬영 상태인 화면 예시
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/237a6c1f-c5ac-4a0f-b9cc-0b9d45b7b89a" />> recordings/rec_YYYYMMDD_HHMMSS.png
 > ```
 >
