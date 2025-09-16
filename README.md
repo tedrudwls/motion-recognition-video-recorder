@@ -1,6 +1,5 @@
 # OpenCV Video Recorder
 
-> 고급컴퓨터비전 과제 1 — **웹캠/카메라 프리뷰 & 녹화 툴**  
 > OpenCV로 구현한 비디오 레코더입니다.
 > 프리뷰/수동 녹화/모션 인식 자동 녹화, 필터, 자동 파일 분할 등을 지원합니다.  
 > **키 입력은 영문 배열 기준**입니다. (예: `m`, `p`, `space`, `ESC` 등)
@@ -36,12 +35,11 @@
 
 ## 데모
 
-> 영상 촬영 상태인 화면 예시
+> Record mode 화면 예시
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/64da4394-0780-4c44-a219-3d7f9daa512d" />
 
->
-> 예시: HUD/REC 표시 및 “Recording started/stopped”, “Motion auto recording: ON/OFF” 토스트 메시지 표기
-
+> Preview mode 화면 예시
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/999e1971-4a96-4c06-bfc4-5b302ad0a98e" />
 ---
 
 ## 요구 사항
