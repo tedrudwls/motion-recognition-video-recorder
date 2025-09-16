@@ -65,13 +65,14 @@
 ---
 
 ## 실행 명령어 예시
-
-python video_recorder.py \
-  --source auto \
-  --backend any \
-  --codec mp4v \
-  --fps 30 \
-  --width 1280 --height 720 \
-  --outdir ./recordings \
-  --auto-split-min 10
+> ```text
+> python video_recorder.py \
+>  --source auto \
+>  --backend any \
+>  --codec mp4v \
+>  --fps 30 \
+>  --width 1280 --height 720 \
+>  --outdir ./recordings \
+>  --auto-split-min 10
+> ```
 
