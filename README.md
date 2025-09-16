@@ -37,7 +37,7 @@
 
 > Record mode 화면 예시
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/64da4394-0780-4c44-a219-3d7f9daa512d" />
-
+<br/>
 > Preview mode 화면 예시
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/999e1971-4a96-4c06-bfc4-5b302ad0a98e" />
 
