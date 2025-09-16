@@ -12,13 +12,9 @@
 - [주요 기능](#주요-기능)
 - [데모](#데모)
 - [요구 사항](#요구-사항)
-- [빠른 시작](#빠른-시작)
+- [실행 명령어 예시](#실행-명령어-예시)
 - [키 맵](#키-맵)
-- [CLI 옵션](#cli-옵션)
 - [모션 녹화 동작 원리](#모션-녹화-동작-원리)
-- [상태 머신](#상태-머신)
-- [출력물 구조](#출력물-구조)
-- [트러블슈팅](#트러블슈팅)
 
 
 ---
@@ -80,18 +76,25 @@
 ---
 
 ## 키 맵
-ESC       : Exit
-Space     : Manual record toggle (Preview ↔ Record)
-p         : Pause/Resume (when recording)
-s         : Save snapshot (PNG)
-m         : Motion-triggered recording ON/OFF
-t         : Toggle timestamp HUD
-h         : Toggle help HUD
+| Key       | Action                                  |
+| --------- | --------------------------------------- |
+| `ESC`     | Exit                                    |
+| `Space`   | Manual record toggle (Preview ↔ Record) |
+| `p`       | Pause/Resume (when recording)           |
+| `s`       | Save snapshot (PNG)                     |
+| `m`       | Motion-triggered recording ON/OFF       |
+| `t`       | Toggle timestamp HUD                    |
+| `h`       | Toggle help HUD                         |
+| `f`       | Flip (mirror) ON/OFF                    |
+| `g`       | Grayscale ON/OFF                        |
+| `b`       | Blur ON/OFF                             |
+| `[` / `]` | Blur kernel size − / + *(odd only)*     |
+| `-` / `=` | Contrast − / +                          |
+| `;` / `'` | Brightness − / +                        |
+| `n`       | Split to a new file (roll over now)     |
 
-f         : Flip (mirror) ON/OFF
-g         : Grayscale ON/OFF
-b         : Blur ON/OFF
-[ / ]     : Blur kernel size - / + (odd only)
-- / =     : Contrast - / +
-; / '     : Brightness - / +
-n         : Split to a new file (roll over now)
+
+
+---
+
+## 모션 녹화 동작 원리
